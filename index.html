@@ -1,32 +1,89 @@
 <!DOCTYPE html>
-<html>
-    <title>My Portfolio</title>
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head> 
-    <body>
-        <h1>Mariya Omware</h1>
-        <h2>About Me</h2>
-        <p>I am a recent highschool graduate aspiring to be a web developer. I'm highly motivated and eager to learn new things from experienced professionals.</p>
-        <h2>Hobbies</h2>
-        <p>Outside of coding I also enjoy:</p>
-        <ol>
-            <li>Playing Violin</li>
-            <li>Miniature Construction</li>
-            <li>Fixing Engines</li>
-            <li>Reading</li>
-        </ol>
-        <img src="/assets/IMG-20220725-WA0026~2.jpg"/>
-        <h2>Spirit Animal</h2>
-        <p>I consider my spirit animal a Butterfly. This is because butterflies symbolise transformation,change and rebirth.
-           I am mostly inspired by the transformation of a caterpillar to butterflly in that there is beauty in change.
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mariya Omware's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+
+<header id="header">
+    <h1>Mariya Omware's Portfolio</h1>
+    <nav>
+        <ul class="horizontal-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#spirit-animal">Spirit Animal</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="about">
+    <h1>Mariya Omware</h1>
+    <h2>About Mariya</h2>
+    <img src="/assets/IMG-20220725-WA0026~2.jpg"/>
+    <p>I am a recent high school graduate aspiring to be a web developer. 
+        <br>
+        I'm highly motivated and eager to learn new things from experienced professionals.</p>
+</section>
+
+<section id="hobbies">
+    <h2>Hobbies</h2>
+    <p>Outside of coding I also enjoy:</p>
+    <ol>
+        <li>Playing Violin</li>
+        <img src="/assets/Violin.jpeg"/>
+        <p>I have been playing violin since the age of 5. I originally got into it through my parents who insisted that I should begin nurturing my talents at a young age.
+            Therefore, they signed me up for music classes where I started playing a bunch of different instruments but I engaged mostly since it was my favorite and most engaging.
         </p>
-        <img src="/assets/_.jpeg"/>
-        <footer>
-                <p>Contact me at: <a href="mariaomware@gmail.com">mariaomware@gmail.com</a></p>
-                <ul>
-                  <li><a href="https://github.com/mariyaschrome">GitHub</a></li>
-                </ul>
-        </footer>
-    </body>
+        <li>Miniature Construction</li>
+        <img src="/assets/Gallery of Miniature Construction_ Modeling From Structure to Finish  - 1.jpeg"/>
+        <p>When I was younger, I used to really enjoy helping my dad work on his projects from as simple as fixing the blown-up heater to installing a light switch,
+            I found it fun. My Dad is an engineer so obviously from a young age, I knew that I wanted to be like him except I found it more fun to construct little houses
+            from popsicle sticks or cardboard boxes around the house. I found it fun and eventually, it became a hobby.
+        </p>
+        <li>Fixing Engines</li>
+        <img src="/assets/c53ad564-5ca1-490b-98e1-876c784cbef1.jpeg"/>
+        <p>To be honest, there's always fun in learning new things especially when it's something difficult that not most people can do and for me that came about 
+            whenever I'd lounge around my dad as he fixed up his or my mom's car in the garage. I'm a car enthusiast so obviously, I found it enticing to see how
+            cars worked under the bonnet.
+        </p>
+        <li>Reading</li>
+        <img src="/assets/Libros soft.jpeg"/>
+        <p>Reading is fun in that it benefits you a lot. First of all, you're able to acquire new information and improve your vocabulary. Second of all,
+            you are able to unlock a part of your imagination that allows you to engage with your books and experience what you're reading.
+        </p>
+        <li>Travelling</li>
+        <img src="/assets/My 65 Best Travel Tips To Save Money & Travel Like A Pro!.jpeg"/>
+        <p>I enjoy travelling to new places from time to time. I do this because it helps me meet new people and experience new cultures and way of life too.</p>
+    </ol>
+</section>
+
+<section id="spirit-animal">
+    <h2>Spirit Animal</h2>
+    <p>I consider my spirit animal a Butterfly. This is because butterflies symbolize transformation, change, and rebirth.
+       I am mostly inspired by the transformation of a caterpillar to butterfly in that there is beauty in change.
+    </p>
+    <div id="spirit-animal">
+    <img src="/assets/_.jpeg" alt="Spirit Animal Image"/>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Mariya</h2>
+    <p>You can reach out to me through the following channels:</p>
+    <ul>
+        <li>Email: mariaomware@gmail.com</li>
+        <li>Phone: +254 768878352</li>
+    </ul>
+</section>
+
+<button id="toggle-contact">Toggle Contact</button>
+
+
+<script src="script.js"></script>
+
+</body>
 </html>
